@@ -1,0 +1,81 @@
+* {
+    font-family: 'Unbounded', cursive;
+}
+
+
+.swiper-pagination-bullet-active {
+    border: none;
+    background-color: rgb(57, 123, 247);
+}
+
+/* whatsapp floating */
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 6px 5px 41px -5px rgba(0, 0, 0, 0.32);
+    -webkit-box-shadow: 6px 5px 41px -5px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 6px 5px 41px -5px rgba(0, 0, 0, 0.32);
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.float:hover {
+    color: #fff;
+    background-color: #0bb449;
+}
+
+img.size-jadwal-foto {
+    width: 310px;
+    height: 310px;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+a.line-none{
+    text-decoration: none;
+    color: #72bb36;
+}  
+
+/* Btn */
+.btn-green {
+    pad: 10px 10px;
+    background-color: #72bb36;
+    color: #fff;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+.btn-oren {
+    pad: 10px 10px;
+    background-color: #e67409;
+    color: #fff;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+.btn-blue {
+    pad: 10px 10px;
+    background-color: #1e87ce;
+    color: #fff;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
